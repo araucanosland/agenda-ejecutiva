@@ -27,7 +27,7 @@ export class CompaniasAsociadasComponent implements OnInit, ControlValueAccessor
   myModelValue: string;
 
   @Input()
-  leyenda='Selecciona la Empresa para filtrar.';
+  leyenda: string = 'Selecciona la Empresa para filtrar.';
 
   @Input()
   desabilitado: boolean = false;
